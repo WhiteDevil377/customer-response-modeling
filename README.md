@@ -102,5 +102,3 @@ Moro, S., Rita, P., and Cortez, P. (2014). *Bank Marketing*. UCI Machine Learnin
 - [Histogram gradient boosting documentation](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.HistGradientBoostingClassifier.html)
 
 The public dataset is credited under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Example rows and derived data reports retain that attribution. Third-party libraries retain their respective licenses.
-
-This prototype was developed with AI assistance. Its results are measured offline outcomes, with the limitations documented above.
