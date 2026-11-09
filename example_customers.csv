@@ -1,0 +1,6 @@
+age,campaign,pdays,previous,emp.var.rate,cons.price.idx,cons.conf.idx,euribor3m,nr.employed,job,marital,education,default,housing,loan,contact,month,day_of_week,poutcome
+45,1,999,0,-1.8,92.893,-46.2,1.25,5099.1,blue-collar,single,high.school,no,no,no,cellular,may,fri,nonexistent
+31,1,999,0,-1.8,92.893,-46.2,1.25,5099.1,blue-collar,married,university.degree,no,yes,no,cellular,may,fri,nonexistent
+25,2,999,0,-1.8,92.893,-46.2,1.25,5099.1,blue-collar,single,basic.9y,no,yes,no,cellular,may,fri,nonexistent
+55,1,999,0,-1.8,92.893,-46.2,1.25,5099.1,management,married,basic.6y,unknown,no,yes,cellular,may,fri,nonexistent
+39,1,999,0,-1.8,92.893,-46.2,1.25,5099.1,self-employed,married,basic.9y,no,yes,no,cellular,may,fri,nonexistent

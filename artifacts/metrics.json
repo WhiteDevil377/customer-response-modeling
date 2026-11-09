@@ -1,0 +1,73 @@
+{
+  "selected_model": "logistic_regression",
+  "selection_metric": "validation average precision",
+  "validation_leaderboard": {
+    "logistic_regression": {
+      "average_precision": 0.1990997040370792,
+      "roc_auc": 0.6600601823009099,
+      "brier_score": 0.09172350928248688,
+      "positive_rate": 0.10637953367875648,
+      "precision_at_top_10_percent": 0.24433656957928804,
+      "lift_at_top_10_percent": 2.296838133518543,
+      "recall_at_top_10_percent": 0.2298325722983257,
+      "n": 6176,
+      "fit_seconds": 0.1500278749736026
+    },
+    "gradient_boosting_15_leaves": {
+      "average_precision": 0.15071532567898763,
+      "roc_auc": 0.5927075499250823,
+      "brier_score": 0.0978535204735372,
+      "positive_rate": 0.10637953367875648,
+      "precision_at_top_10_percent": 0.1650485436893204,
+      "lift_at_top_10_percent": 1.5515065537674928,
+      "recall_at_top_10_percent": 0.1552511415525114,
+      "n": 6176,
+      "fit_seconds": 0.9145894999383017
+    },
+    "gradient_boosting_31_leaves": {
+      "average_precision": 0.14424512079295077,
+      "roc_auc": 0.581390894551905,
+      "brier_score": 0.09872165118841612,
+      "positive_rate": 0.10637953367875648,
+      "precision_at_top_10_percent": 0.156957928802589,
+      "lift_at_top_10_percent": 1.4754523109357527,
+      "recall_at_top_10_percent": 0.1476407914764079,
+      "n": 6176,
+      "fit_seconds": 1.0273515000008047
+    }
+  },
+  "test": {
+    "average_precision": 0.4464418586777081,
+    "roc_auc": 0.5746947589911127,
+    "brier_score": 0.2761621943152646,
+    "positive_rate": 0.38449085316496684,
+    "precision_at_top_10_percent": 0.46763754045307443,
+    "lift_at_top_10_percent": 1.2162514052120592,
+    "recall_at_top_10_percent": 0.12168421052631578,
+    "n": 6177,
+    "f1_at_validation_selected_threshold": 0.5117761643350451
+  },
+  "constant_score_baseline_test_average_precision": 0.38449085316496684,
+  "validation_selected_threshold": 0.14814799169022072,
+  "local_batch_inference": {
+    "rows": 1000,
+    "repeats": 10,
+    "median_ms": 6.025687966030091,
+    "p95_ms": 6.4020064775832
+  },
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0"
+  },
+  "limitations": [
+    "One historical, source-order holdout; no deployment or causal uplift claimed.",
+    "No client identifiers: repeated-client independence cannot be verified.",
+    "No exact timestamp column: source order approximates chronology.",
+    "Class prevalence and economic indicators shift between chronological blocks.",
+    "Predicted probabilities are not externally calibrated for current customers."
+  ]
+}
